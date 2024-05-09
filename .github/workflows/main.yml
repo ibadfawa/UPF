@@ -45,9 +45,10 @@ jobs:
           
           sudo apt-get install python3
           pip install lief
-          cd undetected-frida-server-16.2.1-android-arm64
           ls
           
-          sudo python anti-anti-frida.py undetected-frida-server-16.2.1-android-arm64/undetected-frida-server-16.2.1-android-arm64
+          sudo python anti-anti-frida.py undetected-frida-server-16.2.1-android-arm64
           ls
+      - name: LS
+        run: ls
           
