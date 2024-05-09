@@ -41,7 +41,7 @@ jobs:
           unxz undetected-frida-server-16.2.1-android-arm64.xz
           ls
           
-          wget --no-check-certificate --content-disposition https://github.com/zer0def/undetected-frida/releases/download/16.2.1/anti-anti-frida.py
+          #wget --no-check-certificate --content-disposition https://github.com/zer0def/undetected-frida/releases/download/16.2.1/anti-anti-frida.py
           
           sudo apt-get install python3
           pip install lief
