@@ -54,6 +54,7 @@ jobs:
 
 
       - name: Upload
+        run: echo "upload"
       - uses: actions/upload-artifact@v4
         with:
           name: my-artifact
