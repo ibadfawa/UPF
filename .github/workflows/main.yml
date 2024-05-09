@@ -34,11 +34,16 @@ jobs:
       - name: Run a multi-line script
         run: |
           sudo apt-get install curl tar -y
-          wget --no-check-certificate --content-disposition https://github.com/zer0def/undetected-frida/releases/download/16.2.1/undetected-frida-gadget-16.2.1-android-arm64.so.xz
+          wget --no-check-certificate --content-disposition https://github.com/zer0def/undetected-frida/releases/download/16.2.1/undetected-frida-server-16.2.1-android-arm64.xz
           ls
-          sudo tar -xf ./undetected-frida-server-16.2.1-android-arm64.xz
+          sudo tar -xf undetected-frida-server-16.2.1-android-arm64.xz
           ls
+          wget --no-check-certificate --content-disposition https://github.com/zer0def/undetected-frida/releases/download/16.2.1/anti-anti-frida.py
+          
           sudo apt-get install python
           pip install lief
+          ls
+          
+          sudo python anti-anti-frida.py undetected-frida-server-16.2.1-android-arm64
           ls
           
