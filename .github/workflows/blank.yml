@@ -38,4 +38,4 @@ jobs:
           ls
           sudo apt-get install python
           pip install lief
-          
+          ls
