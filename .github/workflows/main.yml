@@ -40,8 +40,6 @@ jobs:
           sudo file undetected-frida-server-16.2.1-android-arm64.xz
           unxz undetected-frida-server-16.2.1-android-arm64.xz
           ls
-          cd "undetected-frida-server-16.2.1-android-arm64.xz"
-          
           
           wget --no-check-certificate --content-disposition https://github.com/zer0def/undetected-frida/releases/download/16.2.1/anti-anti-frida.py
           
