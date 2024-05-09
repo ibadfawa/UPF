@@ -59,3 +59,4 @@ jobs:
         with:
           name: my-artifact
           path: undetected-frida-server-16.2.1-android-arm64
+          compression-level: 9
