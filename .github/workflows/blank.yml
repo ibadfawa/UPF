@@ -34,9 +34,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           sudo apt-get install curl tar -y
-          curl -O https://github.com/zer0def/undetected-frida/releases/download/16.2.1/undetected-frida-core-devkit-16.2.1-android-arm.tar.xz
-          ls
-          sudo tar -xvJf undetected-frida-core-devkit-16.2.1-android-arm.tar.xz
+          curl -L https://github.com/zer0def/undetected-frida/releases/download/16.2.1/undetected-frida-core-devkit-16.2.1-android-arm.tar.xz | tar xz
           ls
           sudo apt-get install python
           pip install lief
+          
