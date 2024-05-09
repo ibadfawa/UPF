@@ -36,7 +36,7 @@ jobs:
           sudo apt-get install curl tar -y
           curl -O https://github.com/zer0def/undetected-frida/releases/download/16.2.1/undetected-frida-core-devkit-16.2.1-android-arm.tar.xz
           ls
-          tar -xf undetected-frida-core-devkit-16.2.1-android-arm.tar.xz
+          sudo tar xf undetected-frida-core-devkit-16.2.1-android-arm.tar.xz
           ls
           sudo apt-get install python
           pip install lief
