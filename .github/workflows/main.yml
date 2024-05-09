@@ -36,7 +36,7 @@ jobs:
           sudo apt-get install curl tar -y
           wget --no-check-certificate --content-disposition https://github.com/zer0def/undetected-frida/releases/download/16.2.1/undetected-frida-server-16.2.1-android-arm64.xz
           ls
-          sudo tar -xf undetected-frida-server-16.2.1-android-arm64.xz
+          sudo file undetected-frida-server-16.2.1-android-arm64.xz
           ls
           wget --no-check-certificate --content-disposition https://github.com/zer0def/undetected-frida/releases/download/16.2.1/anti-anti-frida.py
           
