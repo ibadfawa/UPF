@@ -47,7 +47,7 @@ jobs:
           pip install lief
           ls
           
-          sudo python anti-anti-frida.py undetected-frida-server-16.2.1-android-arm64
+          python anti-anti-frida.py undetected-frida-server-16.2.1-android-arm64
           ls
       - name: LS
         run: ls
